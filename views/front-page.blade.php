@@ -6,8 +6,7 @@
 @section('content')
   @while(have_posts())
     {!! the_post() !!}
-    @include('patterns.02-organisms.sections.page-header-hero')
-
+    @include('patterns.02-organisms.content.content-page')
     @foreach ($page_sections as $section)
       @if ($section['_type'] == 'highlight_blocks')
         <section class="c-section c-section__highlight-blocks c-highlight-blocks u-theme--background-color--base u-color--white u-spacing">
