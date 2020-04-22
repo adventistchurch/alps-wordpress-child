@@ -18,4 +18,4 @@
 
 ### Requirements
 
-Make sure your parent theme folder is labeled `alps-v3` and the child theme files are in a theme folder labeled `alps-v3-child`.
+Make sure your parent theme folder is labeled `alps-wordpress-v3` and the child theme files are in a theme folder labeled `alps-wordpress-v3-child`.
